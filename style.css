@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    font-family: "Roboto", sans-serif;
 }
 
 .body {
@@ -102,9 +103,37 @@ iframe {
 
 .sidebarContainer {
     width: 33%;
-    background-color: yellow;
     height: 100vh;
     position: absolute;
     right: 100px;
     top: 0;
+}
+
+.suggestion {
+    width: 100%;
+    margin: 10px auto;
+    height: 100px;
+}
+
+.suggestion:hover {
+    cursor: pointer;
+}
+
+.suggestion .thumbnail {
+    float: left;
+    margin-right: 10px;
+}
+
+.suggestion .suggestion-text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.suggestion-artiste,
+.suggestion span {
+    font-size: 12px;
+    margin-top: 0;
 }
