@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+}
+
+.body {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+}
+
+.nav img.logo {
+    margin-right: 0;
+}
+
+.nav-container {
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav img {
+    width: 24px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.nav .logo-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.left-nav {
+    width: 20%;
+}
+
+.center-nav {
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.right-nav {
+    text-align: right;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 0;
+}
+
+.videoContainer {
+    width: 67%;
+    background-color: red;
+    height: 100vh;
+}
+
+.search-input {
+    width: 80%;
+    height: 26px;
+    border: 1px solid #c0c0c0;
+    border-right: 2px solid #c0c0c0;
+    background-color: #ece7e7;
+    margin-right: 0;
+    padding: 6px 0 0 10px;
+}
+
+.search-icon {
+    display: inline-block;
+    width: 5%;
+    height: 34px;
+    margin-left: 0;
+    background-color: #ece7e7;
+    position: absolute;
+    border: 1px solid #c0c0c0;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.search-icon img {
+    margin: 0 auto;
+    height: 22px;
+    width: 22px;
+    padding: 2px;
+}
+
+.sidebarContainer {
+    width: 33%;
+    background-color: yellow;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
