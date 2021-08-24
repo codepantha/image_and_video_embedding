@@ -4,6 +4,7 @@ body {
 
 .body {
     position: relative;
+    padding: 0 7%;
 }
 
 .container {
@@ -53,10 +54,16 @@ body {
     padding: 20px 0;
 }
 
+/* VIDEO SECTION */
 .videoContainer {
-    width: 67%;
-    background-color: red;
+    width: 60%;
     height: 100vh;
+    text-align: right;
+}
+
+iframe {
+    width: 90%;
+    margin-left: 20px;
 }
 
 .search-input {
@@ -98,6 +105,6 @@ body {
     background-color: yellow;
     height: 100vh;
     position: absolute;
-    right: 0;
+    right: 100px;
     top: 0;
 }
