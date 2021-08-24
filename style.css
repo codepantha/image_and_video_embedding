@@ -62,6 +62,17 @@ body {
     text-align: right;
 }
 
+.vid-description {
+    text-align: left;
+    margin-left: 70px;
+    font-weight: 500;
+}
+
+.vid-description .info {
+    font-size: 14px;
+    color: #a49090;
+}
+
 iframe {
     width: 90%;
     margin-left: 20px;
@@ -136,4 +147,5 @@ iframe {
 .suggestion span {
     font-size: 12px;
     margin-top: 0;
+    color: #a49090;
 }
